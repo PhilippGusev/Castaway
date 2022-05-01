@@ -1,0 +1,12 @@
+@media (min-width:600px){
+    body {
+        color: #fff;
+        background-color: black;
+    }
+}
+header{
+    font-size: 112px;
+}
+
+@import "block/title.css";
+@import "block/news.css";

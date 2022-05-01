@@ -1,0 +1,17 @@
+$base-font-size:22px;
+
+@mixin ph {
+    @media (min-width:600px){
+        @content;
+    }
+}
+
+@mixin ph{
+    body {
+        color: #fff;
+        background-color: black;
+    }
+}
+
+
+@import "block/*.scss";
